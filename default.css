@@ -86,6 +86,13 @@
 	{
 		float: left;
 		margin: 0 2em 2em 0;
+		width: 50%;
+	}
+	.image-right
+	{
+		float: right;
+		margin: 2em 2em 2em 2em;
+		width: 50%;
 	}
 	
 	.image-centered
