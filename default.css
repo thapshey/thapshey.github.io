@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #202020;
+		background:white   /*#202020 */;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
@@ -203,6 +203,7 @@
 		margin-top: -5px;
 		font-size: 1.8em;
 		font-weight: 700;
+        
 	}
 	
 	ul.style1 .date a
@@ -391,6 +392,7 @@
 		float: left;
 		width: 300px;
 		padding: 3em 0em;
+        position: fixed;
 	}
 
 /*********************************************************************************/
@@ -406,12 +408,14 @@
 	#logo h1
 	{
 		display: block;
+        
 	}
-	
+	#burger-drop h2 a{padding:30px;display:none}
 	#logo a
 	{
 		text-decoration: none;
-		color: #FFF;
+        color:#676565;
+        font-size: 1.5em
 	}
 	
 	#logo span
@@ -432,8 +436,10 @@
 		display: inline-block;
 		margin-bottom: 1em;
 		border-radius: 50%;
+        border:8px solid #ffffff;
+        box-shadow: 0px 0px 10px #a5a4a4;
 	}
-
+#logo #burger-drop img{display:none}
 /*********************************************************************************/
 /* Menu                                                                          */
 /*********************************************************************************/
@@ -448,9 +454,10 @@
 	
 	#menu li
 	{
-		border-top: 1px solid rgba(255,255,255,0.08);
+		border-top: 1px solid #ededed;
 	}
-	
+#menu li:hover{background:#ebe7e7;transition:.3s}
+#menu .active{background:#ebe7e7;}
 	#menu li a, #menu li span
 	{
 		display: block;
@@ -459,7 +466,8 @@
 		text-decoration:  none;
 		text-transform: uppercase;
 		font-weight: 700;
-		color: rgba(255,255,255,0.5);
+		    /*color: rgba(255,255,255,0.5); */
+        color:#606060;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
@@ -467,7 +475,7 @@
 	}
 	
 	#menu .current_page_item a
-	{
+	{ 
 		background: #2980b9;
 		color: rgba(255,255,255,1);
 	}
@@ -475,7 +483,7 @@
 	#menu .icon
 	{
 	}
-
+#menu-responsive{display:none}
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
@@ -491,7 +499,7 @@
 
 	#page
 	{
-		background: #2a2a2a;
+		background:white; /* #2a2a2a*/
 	}
 
 /*********************************************************************************/
@@ -502,7 +510,7 @@
 	{
 		overflow: hidden;
 		float: right;
-		width: 800px;
+		width: 850px;
 		padding: 3em 50px 5em 50px;
 		background: #FFF;
 		border-top: 6px solid #2980b9;
@@ -571,3 +579,74 @@
 		color: #000;
 		background: red;
 	}
+
+
+#scrolltop{width:60px;height:60px;
+        border-radius:50%;
+        background-size: 40px;
+        background-color: white;
+        background-position: center;
+        background-origin: -10px;
+    background-image: url(icons/AeroBlue.png);
+        background-repeat: no-repeat;
+        box-shadow:0px 0px 6px #797575; 
+        position: fixed;
+        bottom:60px;
+        right:200px;
+    }
+
+/* --------------------------------------- Responsive mobile phones---------------- */
+
+@media screen and (max-device-width:736px) and (min-device-width:375px){
+   
+    #menu2{width:100%}
+    .container{width:375px;}
+    #welcome img{width:100%}
+    .actions li{   margin:0px }
+    .title h2 {
+            text-transform: lowercase;
+            font-size:1.5em;
+        }
+    #logo{margin-bottom:10px}
+   
+    #header
+	{
+		position: relative;
+		float:none;
+		width: 100%;
+		padding:0em;
+        position:relative;
+	}
+    #main{
+       position: relative;
+		float:none;
+		width: 100%;
+		padding:0em;
+        position:relative; 
+    }
+    #header #menu{display: none}
+    #menu-respondive{display: block;width:100%}
+    #menu-responsive {margin:0px;padding:0px;}
+    #menu-responsive  li{text-align:center;border-top:.5px solid #d3d1d1;padding:15px 10px;}
+    #menu-responsive  li a{font-size:1em;text-align:center;}
+    #logo #burger-drop{width:100%;height:50px;}
+    #logo #burger-drop img{display:inline;border-radius: 0px;width:30px;padding:0px;box-shadow:none;float:right}
+    #burger-drop h2{float:left;}
+    #burger-drop h2 a{padding:30px;display: inline}
+    #logo h1{display: none}
+    
+    #scrolltop{width:60px;height:60px;
+        border-radius:50%;
+        background-size: 40px;
+        background-color: white;
+        background-position: center;
+        background-origin: -10px;
+    background-image: url(icons/AeroBlue.png);
+        background-repeat: no-repeat;
+        box-shadow:0px 0px 6px #797575; 
+        position: fixed;
+        bottom:30px;
+        right:30px;
+    }
+}
+
