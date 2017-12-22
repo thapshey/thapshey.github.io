@@ -448,7 +448,7 @@
 
 	#menu
 	{
-       
+       transition:.5s;
         float:right;
         margin-top:30px;
 	}
@@ -462,8 +462,9 @@
 	{
         float:left
 	}
-#menu li:hover{background:#ebe7e7;transition:.3s}
-#menu .active{background:#ebe7e7;}
+#menu li a{font-family:'qo-sarchen';}
+#menu li:hover a{color: #f86e6e;}
+#menu .active a{color:#f52e2e;}
 	#menu li a, #menu li span
 	{
 		float:left;
@@ -522,7 +523,10 @@
 		
 		text-align: justify;
 	}
-
+#main p{
+    font-family:qo-sarchung;
+}
+#main h1,#main h2,#main h3{font-family:'qo-sarchen';}
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
