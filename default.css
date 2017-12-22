@@ -527,6 +527,8 @@
     font-family:qo-sarchung;
 }
 #main h1,#main h2,#main h3{font-family:'qo-sarchen';}
+#main h1{font-size: 25px;}
+#main h2{font-size: 20px;}
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
@@ -644,6 +646,7 @@
     font-family:  qo-sarchen;
         text-decoration: none;
     }
+    #menu-responsive .active a{color:#f52e2e;}
     #logo #burger-drop{width:100%;height:50px;}
     #logo #burger-drop img{
         display:inline;border-radius:0px;
