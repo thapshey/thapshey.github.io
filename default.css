@@ -464,7 +464,7 @@
 	}
 #menu li a{font-family:'qo-sarchen';}
 #menu li:hover a{color: #f86e6e;}
-#menu .active a{color:#f52e2e;}
+#menu .active a{color:#f86e6e;}
 	#menu li a, #menu li span
 	{
 		float:left;
