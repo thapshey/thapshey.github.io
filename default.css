@@ -22,7 +22,7 @@
 		margin: 0;
 		padding: 0;
 		font-weight: 600;
-		color: #333333;
+		color: #b47676;
 	}
 	
 
@@ -35,7 +35,7 @@
 	
 	p
 	{
-		line-height: 180%;
+		/* line-height: 180%; */
 	}
 	
 	strong
@@ -79,7 +79,7 @@
 	{
 		display: block;
 		width: 100%;
-		margin: 0 0 2em 0;
+		margin: 0 0 0em 0;
 	}
 	
 	.image-left
@@ -367,7 +367,7 @@
 
 	.title
 	{
-		margin-bottom: 3em;
+		margin-bottom: 0em;
 	}
 	
 	.title h2
@@ -463,8 +463,8 @@
         float:left
 	}
 #menu li a{font-family:'qo-sarchen';}
-#menu li:hover a{color: #f86e6e;}
-#menu .active a{color:#f86e6e;}
+#menu li:hover a{color: #fa7777;}
+#menu .active a{color:#fc5858;}
 	#menu li a, #menu li span
 	{
 		float:left;
