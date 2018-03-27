@@ -467,7 +467,7 @@ html, body
 	}
 #menu li a{font-family:'qo-sarchen';
 }
-#menu .active a{color:#f71f1f;border-bottom:4px solid #f71f1f}
+#menu .active a{color:#ff7c7c;border-bottom:4px solid #ff7c7c}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
