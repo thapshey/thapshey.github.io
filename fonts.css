@@ -10,7 +10,14 @@ src:url('fonts/Qomolangma-UchenSarchen.ttf')
 font-family:'qo-sarchung';
 src:url('fonts/Qomolangma-UchenSarchung.ttf')
 }
-
+@font-face{
+      font-family:'sanita-bold';
+    src: url(fonts/Sansita-Bold.ttf);
+}
+@font-face{
+      font-family:'sanita';
+    src: url(fonts/Sansita-Regular.ttf);
+}
 /*********************************************************************************/
 /* Icons                                                                         */
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */

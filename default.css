@@ -1,4 +1,5 @@
-	html, body
+
+html, body
 	{
 		height: 100%;
 	}
@@ -31,6 +32,7 @@
 	{
 		 
 		list-style: none;
+        margin:0px;padding:0px
 	}
 	
 	p
@@ -403,11 +405,12 @@
 	{
 		text-align: center;
         float:left;
+        width:100%;
 	}
 	
 	#logo h1
 	{
-		float:right;
+		float:left;
         margin:40px 20px;
         
 	}
@@ -415,10 +418,10 @@
 	#logo a
 	{
 		text-decoration: none;
-        color:#676565;
+        color:#2f312f;
         font-size: 1.5em
 	}
-
+	
 	#logo span
 	{
 		padding-right: 0.5em;
@@ -439,7 +442,7 @@
 		border-radius: 50%;
         border:2px solid #ffffff;
         box-shadow: 0px 0px 10px #a5a4a4;
-       margin:20px;
+       margin:20px;float:left;
 	}
 #logo #burger-drop img{display:none}
 /*********************************************************************************/
@@ -449,33 +452,22 @@
 	#menu
 	{
        transition:.5s;
-        float:right;
-        margin-top:30px;
+        float:left; 
 	}
-	
 	#menu ul
 	{
-      float:right;
+      float:left;  
+        margin-top:15px;
 	}
 	
 	#menu li
 	{
-        float:left
+        float: left;
+        
 	}
-#menu li a{font-family:'qo-sarchen';}
-#menu li:hover a{color: #fa7777;}
-#menu .active a{color:#fc5858;}
-	#menu li a, #menu li span
-	{
-		float:left;
-		padding: 1em 1.5em;
-		text-align: center;
-		text-decoration:  none;
-		text-transform: uppercase;
-		
-		    /*color: rgba(255,255,255,0.5); */
-        color:#606060;
-	}
+#menu li a{font-family:'qo-sarchen';
+}
+#menu .active a{color:#ff7c7c;border-bottom:4px solid #ff7c7c}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
@@ -491,6 +483,20 @@
 	{
 	}
 #menu-responsive{display:none}
+ #menu li a, #menu li span{
+     text-decoration:  none;
+		text-transform: uppercase;
+    }    
+    #menu li a{
+        border-bottom: 4px solid #f7bebe;
+        color:#c6c3c3;margin:0px;
+        padding:10px 12px;
+        font-size: 24px;
+        background:#2f312f;
+}
+
+
+#menu li a:hover{color: #fa7777;border-bottom:4px solid #fa7777}
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
@@ -529,6 +535,10 @@
 #main h1,#main h2,#main h3{font-family:'qo-sarchen';}
 #main h1{font-size: 25px;}
 #main h2{font-size: 20px;}
+
+
+
+
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
@@ -620,7 +630,9 @@
             text-transform: lowercase;
             font-size:1.5em;
         }
-    #logo{margin-bottom:10px}
+    #logo{margin-bottom:10px;
+        
+    }
    
     #header
 	{
@@ -659,7 +671,7 @@
     #burger-drop h2{float:left;}
     #burger-drop h2 a{padding:30px;display: inline}
     #logo h1{display: none}
-    
+    #logo img{float:none}
     #scrolltop{width:60px;height:60px;
         border-radius:50%;
         background-size: 40px;
