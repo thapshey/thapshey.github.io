@@ -621,6 +621,15 @@ html, body
         right:200px;
     }
 #burger-drop{display: none;}
+
+.dl-button{background:white;
+    height: 40px;
+    border-radius: 10px;
+    border:2px solid #47a747;
+    box-shadow:  2px 3px 5px #a0a0a0;
+
+}
+.dl-button a{padding:50px;color:#47a747;text-decoration: none;font-size: 24px}
 /* --------------------------------------- Responsive mobile phones---------------- */
 
 @media screen and (max-device-width:736px) and (min-device-width:350px){
