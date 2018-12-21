@@ -470,6 +470,7 @@ html, body
         
 	}
 #menu li a{font-family:'qo-sarchen';
+line-height:50px
 }
 #menu .active a{color:#ff7c7c;border-bottom:4px solid #ff7c7c}
 	

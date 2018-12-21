@@ -1,6 +1,28 @@
+- name: ལོ་གསར་ལ་མི་རོལ་བའི་ལས་འགུལ། 
+  url: "/index.html"
+
+- name: བུད་མེད་ཀྱི་ཐོབ་ཐང་ལས་འགུལ།
+  url: "/iran-women.html" 
+
+- name: འབྲོག་པ་ལ་སྐོར་བསྐྱོད་སློབ་གྲྭ།
+  url: "/kindergarden.html"  
+
+- name: སྐར་མ་གཅིག་གི་མུན་ནག 
+  url: "/turkey.html"
+
+- name: མཐུན་ཕྱོགས་སྟོབས་ཤུགས་སྤྲུན་ཐབས།  
+  url: "/Allies&Coalitions.html"
+
+- name: དམིགས་ཡུལ་ཁ་གསལ་ཞིག་ལ་ཚང་དགོས་བ་དག།   
+  url: "/GoalsfoStr-Organizing.html"
+
+- name: ཐབས་ཇུས་ལྡན་པའི་བཀོད་སྒྲིག།   
+  url: "/Strategic-Org.html"
+
+
 
 - name: ཤིང་ནགས་སྐྱོབ་པ།
-  url: "/index.html"
+  url: "/save-forest.html"
 
 - name: ནང་ཆེན་སྔོ་ཚལ་གྱི་མཉམ་འབྲེལ་སྤོང་བ། 
   url: "/nangchen.html"
@@ -19,3 +41,4 @@
 
 - name: ཆིག་སྒྲིལ་དང་། འཆར་འགོད། སྒྲིག་ལམ།
   url: "/case2.html"
+  
